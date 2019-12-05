@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	line-height: 20px;
+	font-size: 16px;
+	color: #2C4FD4;
+}
+
+a {
+	cursor: pointer;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	color: #000000;
+}
+
+.logo {
+	width: 1050px;
+	height: 300px;
+	margin: 30px auto 30px auto;
+}
+/* menu */
+
+.menu ul{ 
+	list-style-type: none;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	float: inherit;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2F5D9B;
+	top: 0;
+	
+}
+
+.menu ul li{
+	display: inline;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.menu ul li a{
+  font-size: 28px;
+  font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu ul li a:hover{
+	background-color: #1661C7;
+}
+
+.active {
+	background-color: #42BEE4;
+}
+
+.pagina {
+	width: 1050px;
+	height: auto;
+	margin: 20px auto 10px auto;	
+}
+
+/* home page */
+
+.imgbox1 {
+	width: 450px;
+	height: 300px;
+	background-color: aqua;
+	margin: 15px;
+	float: left;
+}
+
+.txtbox1 {
+	width: 500px;
+	height: 300px;
+	float: right;
+	margin: 15px;
+}
+
+.txtbox1 p {
+	font-size: 20px;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	text-align: justify;
+	color: #000000;
+}
+.txtbox1 a {
+	text-decoration: none;
+}
+.txtbox1 a:hover {
+	color: #FF0004;
+}
+
+.regua {
+	width: 900px;
+	margin: auto;
+	border: 1px solid #ccc;
+	clear: both;
+}
+
+.fotos {
+	width: 1020px;
+	height: 350px;
+	margin: 15px;
+}
+
+.ft1 {
+	background-color: aqua;
+	float: left;
+	width: 505px;
+	height: 350px;
+	margin: 0 5 0 15;
+	
+}
+
+.ft2 {
+	background-color: aqua;
+	float: right;
+	width: 505px;
+	height: 350px;
+	margin: 0 15 0 5;
+	
+}
+
+/* A empresa */
+
+.txtbox2 {
+	font-size: 20px;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	width: 1020px;
+	height: auto;
+	float: right;
+	margin: 15px;
+	
+}
+
+.txtbox2 p {
+	font-size: 20px;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	text-align: justify;
+	color: #000000;
+}
+
+.botoes {
+	width: 1020px;
+	height: auto;
+	margin: 15px;
+}
+
+.but {
+	width: auto;
+	height: 100px;
+	margin-bottom: 15px;
+}
+
+.but2 {
+	width: auto;
+	height: 100px;
+}
+
+/* Mostruário */
+
+.tabela {
+	width: 1020px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	
+}
+
+.txtbox3 {
+	text-align: center;
+	font-size: 20px;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	width: 1020px;
+	height: auto;
+	float: right;
+	margin: 15px;
+	
+}
+
+/* fale conosco */
+
+textarea {
+	width: 350px;
+}

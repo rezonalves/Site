@@ -1,0 +1,63 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>R&amp;C Etiquetas | Fale Conosco</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="logo"><a href="index.html"><img src="imagens/logo.png" alt="" width="1050" height="300" id="logotipoRC"/></a>
+</div> <!-- logo -->
+
+<div class="menu">
+   
+    <ul>
+		<li><a href="index.html"> HOME </a></li>
+		<li><a href="a_empresa.html"> A EMPRESA </a></li>
+		<li><a href="mostruario.html"> MOSTRUÁRIO </a></li>
+		<li><a href="fale_conosco.html" class="active"> FALE CONOSCO </a></li>
+	</ul>
+	
+</div> <!-- menu -->
+
+<div class="pagina">
+
+<div class="formulario">
+  <h2>Entre em contato:</h2>
+  <p>&nbsp;</p>
+  <form action="php/processa.php" method="post">
+    <table width="369" border="1">
+  <tbody>
+    <tr>
+      <td width="359">Nome pessoal ou da empresa:</td>
+    </tr>
+    <tr>
+      <td><input name="nome" type="text" id="nome" placeholder="Nome ou Empresa" size="50"></td>
+    </tr>
+    <tr>
+      <td><p>Email:</p></td>
+    </tr>
+    <tr>
+      <td><input name="email" type="text" id="email" placeholder="Ex: exemplo@email.com" size="50"></td>
+    </tr>
+    <tr>
+      <td>Mensagem:</td>
+    </tr>
+    <tr>
+      <td><textarea name="mensagem" cols="0" rows="10" id="msg" placeholder="Digite sua mensagem"></textarea></td>
+    </tr>
+    <tr>
+      <td><input name="submit" type="submit" id="submit" formmethod="POST" value="Enviar"></td>
+    </tr>
+  </tbody>
+</table>
+</form>
+</div>
+
+</div> <!-- pagina -->
+
+</body>
+</html>
